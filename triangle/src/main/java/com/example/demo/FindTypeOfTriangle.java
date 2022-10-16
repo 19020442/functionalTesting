@@ -33,10 +33,6 @@ public class FindTypeOfTriangle {
 		if (a == b && b == c)
 			return "Tam giac deu";
 
-		if ((a == b || b == c || a == c)
-				&& (a * a == b * b + c * c || b * b == a * a + c * c || c * c == a * a + b * b)) {
-			return "Tam giac vuong can";
-		}
 		if ((a == b || b == c || a == c))
 			return "Tam giac can";
 		if (a * a == b * b + c * c || b * b == a * a + c * c || c * c == a * a + b * b)
